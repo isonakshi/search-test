@@ -420,28 +420,28 @@ function search() {
 				}
 			
                     		discussion +='<div id="div_'+discussionID+'" class="firstdiv">';                    		
-				discussion +='<ul>';			
-				discussion +=discussionImage+'<li><a href="'+url+'" target="_apps">'+subject+'</a></li>';			
-                               	discussion +='</ul>'; 
-                                discussion +='<ul>';
-				discussion +='<span class="jive-icon-med image-button" id="'+discussionID+'"></span>';
+							discussion +='<ul>';			
+							discussion +=discussionImage+'<li><a href="'+url+'" target="_apps">'+subject+'</a></li>';			
+							discussion +='</ul>'; 
+                            discussion +='<ul>';
+							discussion +='<span class="jive-icon-med image-button" id="'+discussionID+'"></span>';
                     		discussion +='</ul>'; 
 					
-				discussion +='<div class="root1">';  
+							discussion +='<div class="root1">';  
                     		discussion +='<ul>';                   
                     		discussion +='<li>Created by <a class="nopad" href=https://apps-onprem.jivesoftware.com/people/'+username+'>'+author+'</a></li>';
-				discussion +='<li>Date:'+newDate+'</li>';                    
+							discussion +='<li>Date:'+newDate+'</li>';                    
                     		discussion +='<li>Replies:'+replyCount+'</li>'; 
                     		discussion +='</ul>';
-				discussion +='</div>';
+							discussion +='</div>';
 					
-				discussion +='<div class="root">';
-                                discussion +='<ul>';                   
-                   		discussion +='<div class="align">'+contentSummary+'</div>';                  
-                    	        discussion +='</ul>';
-				discussion +='</div>';				                
-				discussion +='</div>';
-				discussion +='<br>';                
+							discussion +='<div class="root">';
+                            discussion +='<ul>';                   
+							discussion +='<div class="align">'+contentSummary+'</div>';                  
+                    	    discussion +='</ul>';
+							discussion +='</div>';				                
+							discussion +='</div>';
+							discussion +='<br>';                
                            }
                
                
