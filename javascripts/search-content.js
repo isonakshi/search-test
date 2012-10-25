@@ -69,7 +69,7 @@ $("span.image-button").live('click', function () {
 		case '12':
 			outMonth= "Dec";
 			break;
-}
+	}
 return outMonth;
 }
 function expandDiscussion(id){
@@ -105,7 +105,7 @@ function expandDiscussion(id){
 						rootmessage +='<div ><a href="'+discussionresult.messages.root.resources.html.ref+'" target="_apps">'+discussionresult.messages.root.subject+'</a></div>';
 						rootmessage +='<div> by <a class="nopad" href=https://apps-onprem.jivesoftware.com/people/'+response.data.author.username+'>'+response.data.author.name+'</a> on '+newDate+'</div>';	
 						rootmessage +='<span class="root">'+discussionresult.messages.root.content.text+'</span>';                             
-							//rootmessage +=+discussionresult.messages.root.content.text+;                 
+						//rootmessage +=+discussionresult.messages.root.content.text+;                 
                         rootmessage +='</div>';				
 						//rootmessage +='</ul>';
 						rootmessage +='</div>';

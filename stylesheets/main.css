@@ -208,6 +208,15 @@ font-weight:bold;
  color: black
  }
  
+.answerborder  a
+{
+text-decoration: none;
+padding: 0 0;
+}
+ .answerborder  a:hover
+{
+text-decoration:underline;
+}
  
  .rootborder
 {
