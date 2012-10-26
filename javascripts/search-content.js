@@ -77,6 +77,7 @@ function expandDiscussion(id){
 	 $(".content").html("");
 	$('.firstdiv').css('background-color', '#FFFFFF');
 	$('#div_'+id).css('background-color', '#F2F2F2');
+	$('.image-button').css('background-position', '-220px -1360px');
 	var cssObj = {
       'background-image' : 'url(../images/jive-icon-sprites-med.png)',
        'margin':' -1px 5px 0 0',
