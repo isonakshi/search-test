@@ -77,7 +77,7 @@ function expandDiscussion(id){
 	 $(".content").html("");
 	$('.firstdiv').css('background-color', '#FFFFFF');
 	$('#div_'+id).css('background-color', '#F2F2F2');
-	$('.image-button').css('background-position', '-220px -1360px');
+	/*$('.image-button').css('background-position', '-220px -1360px');
 	var cssObj = {
       'background-image' : 'url(../images/jive-icon-sprites-med.png)',
        'margin':' -1px 5px 0 0',
@@ -86,7 +86,7 @@ function expandDiscussion(id){
 	   'background-position':' -176px -1360px'
     }
 
-	$('#'+id).css(cssObj );
+	$('#'+id).css(cssObj );*/
 	console.log("Expand Row Id::: "+ id);
 	var discussionMessage="";
 	var correctanswer="";
