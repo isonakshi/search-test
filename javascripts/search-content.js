@@ -7,14 +7,15 @@ function init() {
    
 }
 $("span.image-button").live('click', function () {
-	$(this).css("background-position","-220px -1360px");
-      var curRowId = $(this).attr("id");
-	  if(curRowId.indexOf("DOC") != -1){
-		var docID = (curRowId.substring(curRowId.lastIndexOf("-"))).substr(1);
-		//alert("found :: "+docID +" "+curRowId);
-		console.log("i'm in if section:document");
-		expandDocument(docID);
-		}
+		//$(this).css("background-position","-220px -1360px");
+		$('.image-button').css('background-position', '-220px -1360px');
+		var curRowId = $(this).attr("id");
+		if(curRowId.indexOf("DOC") != -1){
+			var docID = (curRowId.substring(curRowId.lastIndexOf("-"))).substr(1);
+			//alert("found :: "+docID +" "+curRowId);
+			console.log("i'm in if section:document");
+			expandDocument(docID);
+			}
 		else if(curRowId.indexOf("post") != -1){
 			var blogpostId = (curRowId.substring(curRowId.lastIndexOf("-"))).substr(1);
 			console.log("i'm in if section:blogID::"+blogpostId);
@@ -80,8 +81,6 @@ function expandDiscussion(id){
 	$('.firstdiv').css('background-color', '#FFFFFF');
 	$('#div_'+id).css('background-color', '#F2F2F2');
 	
-
-	/*$('.image-button').css('background-position', '-220px -1360px');
 	var cssObj = {
       'background-image' : 'url(../images/jive-icon-sprites-med.png)',
        'margin':' -1px 5px 0 0',
@@ -90,7 +89,7 @@ function expandDiscussion(id){
 	   'background-position':' -176px -1360px'
     }
 
-	$('#'+id).css(cssObj );*/
+	$('#'+id).css(cssObj );
 	console.log("Expand Row Id::: "+ id);
 	var discussionMessage="";
 	var correctanswer="";
