@@ -9,7 +9,14 @@ function init() {
 $("span.image-button").live('click', function () {
 		//$(this).css("background-position","-220px -1360px");
 		$('.image-button').css('background-position', '-220px -1360px');
-		$('.image-button:hover').css('background-position', ' -176px -1360px;');
+		$(".image-button").bind('mouseover',function() {
+    $(this).css('background-position', ' -176px -1360px;');
+});
+
+$(".image-button").bind('click',function() {
+    $(this).css('background-position', ' -176px -1360px;');
+});
+
 		var curRowId = $(this).attr("id");
 		if(curRowId.indexOf("DOC") != -1){
 			var docID = (curRowId.substring(curRowId.lastIndexOf("-"))).substr(1);
