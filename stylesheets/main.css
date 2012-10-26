@@ -108,10 +108,10 @@ font-size:12px;
 
 }
 .firstdiv{
-vertical-align:middle;
 background:white;
-border: 3px;
-border-color: red;
+position:relative;
+padding-top: 1px;
+padding-bottom: 1px;
 
 }
 
