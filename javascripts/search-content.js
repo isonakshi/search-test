@@ -77,7 +77,7 @@ function expandDiscussion(id){
 	 $(".content").html("");
 	$('.firstdiv').css('background-color', '#FFFFFF');
 	$('#div_'+id).css('background-color', '#F2F2F2');
-	$(".jive-icon-med .image-button").bind('click',function() {
+	$('#'+id).bind('click',function() {
     $(this).css("background-position","-220px -1360px");
 	});
 
