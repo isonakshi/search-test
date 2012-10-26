@@ -77,6 +77,11 @@ function expandDiscussion(id){
 	 $(".content").html("");
 	$('.firstdiv').css('background-color', '#FFFFFF');
 	$('#div_'+id).css('background-color', '#F2F2F2');
+	$('#'+id).css( background-image: url('../images/jive-icon-sprites-med.png');
+    margin: -1px 5px 0 0;
+    height: 18px;
+    width: 19px;
+	background-position: -176px -1360px;);
 	console.log("Expand Row Id::: "+ id);
 	var discussionMessage="";
 	var correctanswer="";
