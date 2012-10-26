@@ -76,7 +76,7 @@ text-decoration:underline;
      float: right;
     /*width: 20px !important; */
 }
-.image-button:selected{
+.image-button:selection{
     background-position: -176px -1360px;
     /*background-position: -220px -1360px;*/
     
