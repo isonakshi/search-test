@@ -10,6 +10,6 @@
         <Require feature="osapi"/>
         <Require feature="views"/>
     </ModulePrefs>
-    <Content view="home" type="html" href="search-content.html"/>
+    <Content view="home" type="html" href="search-home.html"/>
     <Content view="canvas" type="html" href="search-content.html"/>
 </Module>
